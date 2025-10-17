@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hovedside</title>
+
+
+    <style>
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        h1 {
+            text-align: center;
+            border: 5px solid pink;
+            border-radius: 50px;
+            padding: 30px;
+            color: pink;
+        }
+
+        h2 {
+            text-align: center;
+            border: 5px solid pink;
+            border-radius: 50px;
+            padding: 30px;
+            color: pink;
+        }
+
+        h3{
+            text-align: center;
+            border: 5px solid rgb(172, 131, 137);
+            border-radius: 50px;
+            padding: 30px;
+            
+        }
+
+        li{
+            font-size: x-large;
+        }
+
+        .navbar {
+
+            display: flex;
+            font-size: 30px;
+            gap: 10px;
+            justify-content: space-evenly;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            height: 500px;
+            gap: 5px;
+
+        }
+
+        a {
+            color: pink;
+            text-decoration: none;
+        }
+
+        .interesser {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            height: 500px;
+            gap: 20px;
+        }
+
+        .interesser>* {
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            border-radius: 150px;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .interesser div {
+            color:black;
+            font-size: 30px;
+            background-color: whitesmoke;
+            opacity: 0.8;
+            border-radius: 30px;
+            padding: 5px;
+
+        }
+
+        footer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            background-color: rgb(208, 194, 176);
+            border: 0;
+            border-radius: 20px;
+            padding: 50px;
+        }
+
+        .fot{
+            grid-column: 1/3;
+        }
+
+        .fotball{
+            background-image: url(bilder/fotball.jpg);
+            
+            
+        }        
+
+        .langrenn{
+            background-image: url(bilder/langrenn.jpg);
+        }
+
+        .F1{
+            background-image: url(bilder/F1.jpg);
+        }
+
+        .bandy{
+            background-image: url(bilder/bandy.jpg);
+                background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="ommeg.html">Om meg</a>
+            <a href="skole.html">Skole</a>
+            <a href="familie.html">Familie</a>
+            <a href="bildegalleri.html">Bilder</a>
+
+        </div>
+
+    </header>
+    <main>
+        <section class="en">
+            <h1> Maria Sunde Ødegaard</h1>
+        </section>
+
+        <section class="container">
+            <div class="boks1"><img src="bilder/#" alt=""> </div>
+            <div class="boks2"> <img src="bilder/#" alt=""></div>
+        </section>
+
+        <section>
+            <h2>Mine interesser</h2>
+            <div class="interesser">
+                <a href="fotball.html" class="fotball">
+                    <div>Fotball</div>
+                </a>
+                <a href="langrenn.html" class="langrenn">
+                    <div>Langrenn</div>
+                </a>
+                <a href="bandy.html" class="bandy">
+                    <div>Bandy</div>
+                </a>
+
+                <a href="F1.html" class="F1">
+                    <div>F1</div>
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+<br>
+    <footer>
+        <h3 class="fot"> Kontakter og sosiale medier</h3>
+        <div>
+            <ul>
+                <li>Instragram</li>
+                <li>Tiktok</li>
+                <li>Snapcht</li>
+                <li>Facebook</li>
+
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>Telefon</li>
+                <li> Gmail</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
