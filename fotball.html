@@ -1,11 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fotball</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        body {
+            background-image: url(bilder/fotball-bak.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: 100% 100%;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding-bottom: 100px;
+        }
+
+        h1 {
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 50px;
+            padding: 20px;
+            color: black;
+            font-size: 100px;
+            margin: 0;
+            background-color: aliceblue;
+            opacity: 0.8;
+        }
+
+        h2 {
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 50px;
+            padding: 20px;
+            color: black;
+            font-size: 40px;
+            margin: 0;
+            background-color: aliceblue;
+            opacity: 0.8;
+        }
+
+        .navbar {
+
+            display: flex;
+            font-size: 20px;
+            gap: 10px;
+            justify-content: flex-start;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+        }
+
+        .generelt {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 20px;
+
+        }
+
+        .info {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px;
+            font-size: 20px;
+        }
+
+        .meg {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #kjentespillere .container {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: stretch;
+            gap: 50px;
+
+        }
+
+        .container div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid black;
+            background-color: rgba(255, 255, 255, 0.8);
+            font-size: 30px;
+            border-radius: 20px;
+            overflow: hidden;
+            padding: 50px;
+        }
+
+        .container div:hover {
+            background-color: rgb(220, 238, 244);
+            transition: 0.3s;
+        }
+
+        #kjentespillere img {
+            width: 20%;
+        }
+
+        #kjentespillere p {
+            padding-top: 100px;
+            font-size: x-large;
+
+        }
+
+        #messi {
+            background-image: url(bilder/messi.webp);
+            background-position: top;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+        }
+
+        #ronaldo {
+            background-image: url(bilder/ronaldo.jpg);
+            background-position: top;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+        }
+
+        #Yamal {
+            background-image: url(bilder/lamine\ yamal\ bruk.webp);
+            background-position: top;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9)
+        }
+
+        #haaland {
+            background-image: url(bilder/haaland.jpg);
+            background-position-y: -100px;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <div class="navbar">
+            <a href="hoved.html"> Tilbake til hovedside</a>
+        </div>
+
+        <h1>Fotball</h1>
+    </header>
+
+    <main>
+        <section>
+            <div class="generelt">
+
+                <div class="info">
+
+                    <h2>Generelt om fotball</h2>
+                    <p>Fotball er en sport der to lag med elleve spillere på hvert lag konkurrerer om å få ballen flest
+                        ganger inn i motstanderens mål. Kampen spilles på en bane med ett mål i hver ende, og laget som
+                        har scoret flest mål når tiden er ute, vinner. En vanlig kamp varer i 90 minutter. Hvis det står
+                        likt når kampen er ferdig, ender det enten uavgjort eller avgjøres med ekstraomganger (to ganger
+                        15 minutter) eller straffesparkkonkurranse.
+                        Bare keeperen har lov til å bruke hendene, og det er kun innenfor eget straffefelt når ballen er
+                        i spill. De andre spillerne bruker for det meste føttene til å føre ballen, men de kan også
+                        bruke hodet eller overkroppen.
+                    </p>
+                </div>
+                <div class="info">
+                    <img src="bilder/fotballbane.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="meg">
+                <h2>Min relasjon til fotball</h2>
+                <p>Jeg har spilt fotball i mange år, og det er en sport jeg virkelig elsker. Jeg begynte å spille da jeg
+                    var liten, og har vært en del av flere lag gjennom årene. Fotball har ikke bare gitt meg fysisk
+                    trening, men også lært meg viktige verdier som lagarbeid, disiplin og utholdenhet. Jeg har mange
+                    gode minner fra kamper og turneringer, og det å være en del av et lag har gitt meg en følelse av
+                    fellesskap og tilhørighet. Jeg har bare spilt i en klubb hele livet mitt. det er ØHIL (Øvrevoll
+                    Hosle IL).
+                    innenfor øhil har jeg spilt på breddelag og satselag. idag spille jeg på rekruttlaget. Jeg trener 4
+                    ganger i uken og har en kamp i helgene. noen ganger har vi også cup helger der vi spiller flere
+                    kamper på en dag. jeg er angrepspiller og det har jeg vært igjennom hele min karriere.
+                </p>
+            </div>
+        </section>
+
+        <section id="kjentespillere">
+            <h2 class="kjente">Noen av verdens mest kjente fotballspillere</h2>
+            <div class="container">
+                <div id="messi">
+                    <h3> Messi</h3>
+
+                    <p>Lionel Messi er en argentinsk fotballspiller som regnes som en av tidenes beste. Han ble født i
+                        1987 i Rosario, Argentina, og startet sin profesjonelle karriere i FC Barcelona, der han vant en
+                        rekke titler, inkludert flere Champions League- og La Liga-trofeer. Messi er kjent for sin
+                        fantastiske teknikk, raske bevegelser og evne til å score mål på nesten umulige måter. I 2021
+                        gikk han til Paris Saint-Germain, og senere til Inter Miami i USA. Han har også ledet Argentina
+                        til store triumfer, blant annet VM-gull i 2022.</p>
+                </div>
+                <div id="ronaldo">
+                    <h3>Ronaldo</h3>
+
+                    <p>Cristiano Ronaldo er en portugisisk fotballspiller som regnes som en av de største gjennom
+                        tidene. Han ble født i 1985 på Madeira i Portugal og har spilt for store klubber som Manchester
+                        United, Real Madrid, Juventus og Al Nassr. Ronaldo er kjent for sin styrke, hurtighet, målteft
+                        og imponerende arbeidsmoral. Han har vunnet flere Ballon d’Or-priser, Champions League-titler og
+                        mange nasjonale mesterskap. I tillegg har han vært en nøkkelspiller for Portugal og ledet laget
+                        til EM-gull i 2016 og Nations League-seier i 2019.</p>
+                </div>
+                <div id="Yamal">
+                    <h3>Lamine Yamal</h3>
+
+                    <p>Lamine Yamal er en spansk fotballspiller som regnes som et av de største talentene i verden. Han
+                        ble født i 2007 i Esplugues de Llobregat i Spania og spiller for FC Barcelona. Yamal er kjent
+                        for sin store tekniske ferdighet, fart og modenhet til tross for sin unge alder. I 2023 ble han
+                        den yngste spilleren noensinne til å debutere og score for det spanske landslaget. Han har
+                        allerede imponert i La Liga og Champions League, og mange ser på ham som en framtidig stjerne i
+                        internasjonal fotball.</p>
+
+                </div>
+                <div id="haaland">
+                    <h3>Haaland</h3>
+
+                    <p>Erling Braut Haaland er en norsk fotballspiller som er kjent som en av verdens beste spisser. Han
+                        ble født i 2000 i Leeds i England, men vokste opp i Bryne i Norge. Haaland startet karrieren i
+                        Bryne FK og slo gjennom i Red Bull Salzburg før han gikk til Borussia Dortmund og senere
+                        Manchester City. Der har han satt en rekke scoringsrekorder og vunnet både Premier League og
+                        Champions League. Han er kjent for sin enorme fysikk, hurtighet og presise avslutninger, og har
+                        blitt et stort forbilde for unge fotballspillere over hele verden.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

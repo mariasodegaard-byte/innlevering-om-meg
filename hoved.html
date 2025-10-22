@@ -33,37 +33,58 @@
             color: pink;
         }
 
-        h3{
+        h3 {
             text-align: center;
             border: 5px solid rgb(172, 131, 137);
             border-radius: 50px;
             padding: 30px;
-            
+
         }
 
-        li{
+        li {
             font-size: x-large;
         }
 
         .navbar {
-
             display: flex;
             font-size: 30px;
             gap: 10px;
             justify-content: space-evenly;
         }
 
+        .navbar a:hover {
+            color: rgb(251, 151, 166);
+            font-size: 32px;
+            transition: 0.3s;
+        }
+
         .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             height: 500px;
-            gap: 5px;
+            gap: 20px; 
 
         }
 
         a {
             color: pink;
             text-decoration: none;
+        }
+
+        .ommeg {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 7px;
+        }
+
+        .ommeg>div {
+            background-color: lightpink;
+            border-radius: 20px;
+        }
+
+        .ommeg div h3 {
+            border: 0;
+
         }
 
         .interesser {
@@ -74,7 +95,7 @@
         }
 
         .interesser>* {
-        
+
             display: flex;
             align-items: center;
             justify-content: center;
@@ -83,9 +104,9 @@
             background-position: center;
             background-size: cover;
         }
-        
+
         .interesser div {
-            color:black;
+            color: black;
             font-size: 30px;
             background-color: whitesmoke;
             opacity: 0.8;
@@ -100,53 +121,104 @@
             background-color: rgb(208, 194, 176);
             border: 0;
             border-radius: 20px;
-            padding: 50px;
+            padding: 20px;
+
         }
 
-        .fot{
+        .fot {
             grid-column: 1/3;
         }
 
-        .fotball{
+        .fotball {
             background-image: url(bilder/fotball.jpg);
-            
-            
-        }        
 
-        .langrenn{
+
+        }
+
+        .langrenn {
             background-image: url(bilder/langrenn.jpg);
         }
 
-        .F1{
+        .F1 {
             background-image: url(bilder/F1.jpg);
         }
 
-        .bandy{
+        .bandy {
             background-image: url(bilder/bandy.jpg);
-                background-size: 100% 100%;
+            background-size: 100% 100%;
         }
     </style>
 </head>
 
 <body>
     <header>
+        <h1>Velkommen til min hjemmeside! <br> Maria Sunde Ødegaard</h1>
+
+    </header>
+    <nav>
         <div class="navbar">
-            <a href="ommeg.html">Om meg</a>
+            <a href="hoved.html">Hovedside</a>
             <a href="skole.html">Skole</a>
             <a href="familie.html">Familie</a>
             <a href="bildegalleri.html">Bilder</a>
 
         </div>
-
-    </header>
+    </nav>
     <main>
         <section class="en">
-            <h1> Maria Sunde Ødegaard</h1>
+
         </section>
 
         <section class="container">
-            <div class="boks1"><img src="bilder/#" alt=""> </div>
-            <div class="boks2"> <img src="bilder/#" alt=""></div>
+            <div class="boks1"><img src="bilder/barnebilde.png" alt=""> </div>
+            <div class="boks2"> <img src="bilder/forsidebilde.png" alt=""></div>
+        </section>
+
+        <section>
+            <h2>om meg</h2>
+            <div class="ommeg">
+
+                <div>
+                    <h3 class=""om>Info om meg</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus commodi ad ducimus numquam,
+                        laudantium quo distinctio incidunt nisi qui nihil sed dolores itaque, beatae delectus sapiente
+                        tempora porro excepturi consequatur voluptatum ullam voluptates. Similique eaque, nobis error
+                        voluptas quas sint blanditiis corrupti, dolorem ad ipsum corporis recusandae quia nulla magnam
+                        maxime qui obcaecati! Reprehenderit eligendi blanditiis ipsa dignissimos reiciendis et sit
+                        saepe, sint ab facilis, nemo quisquam laborum maxime tempora non soluta consequatur temporibus
+                        voluptatum asperiores rerum deserunt cumque cum eveniet dolorem. Praesentium aspernatur ullam
+                        officia magnam porro, beatae pariatur veniam nam consectetur voluptatem numquam similique
+                        impedit excepturi commodi illum!</p>
+
+                </div>
+                <div>
+                    <h3 class=""om>Dyr</h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eius illo recusandae commodi quos
+                    deserunt iste laboriosam molestias soluta exercitationem tempore inventore impedit animi natus
+                    similique aperiam odit temporibus quo accusamus ducimus tenetur aut eaque fugit sapiente! Quasi ipsa
+                    tempore necessitatibus velit, modi esse aut exercitationem pariatur voluptate, sint magni quo,
+                    accusamus culpa quam. Voluptatum qui officia sit recusandae quia. Quidem beatae voluptate aperiam
+                    saepe consequuntur, voluptas aspernatur quo asperiores quia nulla fuga, explicabo in ut fugiat
+                    laborum officia nemo. At modi molestias dignissimos iure obcaecati repellat cumque perspiciatis
+                    vitae alias non. Eius maxime cumque recusandae placeat sint ex corrupti?
+
+
+                </div>
+                <div>
+
+                    <h3 class=""om>Reise</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis at iste, hic aliquid ipsam
+                        esse atque, architecto fugiat non minus neque, possimus laudantium. Vitae cupiditate suscipit
+                        officia iste adipisci blanditiis, alias asperiores recusandae saepe? Quasi quibusdam impedit hic
+                        facilis possimus non molestiae excepturi esse modi iste, a ipsa odio labore, commodi voluptatum
+                        deserunt at, vero dolorem distinctio. Nulla voluptates perferendis corrupti dicta quam
+                        voluptatem asperiores nostrum aliquid laborum ut neque maxime sapiente dolore eos eveniet ad
+                        beatae nihil deleniti eum aliquam, similique deserunt. Consequatur architecto rem fugit ab
+                        officiis alias eius temporibus id tempora, impedit quos similique nostrum asperiores recusandae?
+                    </p>
+
+                </div>
+            </div>
         </section>
 
         <section>
@@ -170,23 +242,24 @@
         </section>
 
     </main>
-<br>
+    <br>
     <footer>
         <h3 class="fot"> Kontakter og sosiale medier</h3>
         <div>
             <ul>
-                <li>Instragram</li>
-                <li>Tiktok</li>
-                <li>Snapcht</li>
-                <li>Facebook</li>
+                <li>Instragram - mariasundeodegaard</li>
+                <li>Tiktok - maria.degaard</li>
+                <li>Snapcht - mariasundeo</li>
+                <li>Facebook - mariasundeodegaard</li>
 
             </ul>
         </div>
 
         <div>
             <ul>
-                <li>Telefon</li>
-                <li> Gmail</li>
+                <li>Telefon - +47 413 19 139</li>
+                <li> Gmail - mariasodegaard@gmail.com
+                </li>
             </ul>
         </div>
     </footer>
