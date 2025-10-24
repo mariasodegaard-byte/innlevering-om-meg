@@ -8,6 +8,13 @@
 
 
     <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         img {
             display: block;
             width: 100%;
@@ -16,23 +23,25 @@
         }
 
         body {
-            background-color: antiquewhite;
+            background-color: rgb(241, 222, 231);
         }
 
         h1 {
             text-align: center;
-            border: 5px solid pink;
+            border: 5px solid rgb(239, 41, 74);
             border-radius: 50px;
             padding: 30px;
-            color: pink;
+            color: rgb(239, 41, 74);
+            margin-bottom: 50px;
         }
 
         h2 {
             text-align: center;
-            border: 5px solid pink;
+            border: 5px solid rgb(239, 41, 74);
             border-radius: 50px;
             padding: 30px;
-            color: pink;
+            color: rgb(239, 41, 74);
+            margin: 30px;
         }
 
         h3 {
@@ -49,6 +58,7 @@
 
         nav{
             padding-bottom: 50px;
+            padding-top: 20px;
         }
 
         .navbar {
@@ -56,10 +66,11 @@
             font-size: 30px;
             gap: 10px;
             justify-content: space-evenly;
+
         }
 
         .navbar a:hover {
-            color: rgb(251, 151, 166);
+            color: rgb(128, 3, 24);
             font-size: 32px;
             transition: 0.3s;
         }
@@ -72,7 +83,7 @@
         }
 
         a {
-            color: pink;
+            color: rgb(239, 41, 74);
             text-decoration: none;
         }
 
@@ -83,7 +94,7 @@
         }
 
         .ommeg>div {
-            background-color: lightpink;
+            background-color: rgb(237, 97, 121);
             border-radius: 20px;
         }
 
@@ -123,11 +134,18 @@
         footer {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            background-color: rgb(208, 194, 176);
+            background-color:pink ;
             border: 0;
             border-radius: 20px;
             padding: 20px;
+            
 
+        }
+
+        footer div ul {
+            list-style-type: square;
+            font-size: large;
+            padding: 50px;
         }
 
         .fot {
@@ -157,19 +175,19 @@
 
 <body>
     <header>
+        
+        <nav>
+            <div class="navbar">
+                <a href="index.html">Hovedside</a>
+                <a href="skole.html">Skole</a>
+                <a href="familie.html">Familie</a>
+                <a href="bildegalleri.html">Bilder</a>
+                
+            </div>
+        </nav>
         <h1>Velkommen til min hjemmeside! <br> Maria Sunde Ødegaard</h1>
-
     </header>
-    <nav>
-        <div class="navbar">
-            <a href="hoved.html">Hovedside</a>
-            <a href="skole.html">Skole</a>
-            <a href="familie.html">Familie</a>
-            <a href="bildegalleri.html">Bilder</a>
-
-        </div>
-    </nav>
-    <main>
+        <main>
         <section class="en">
 
         </section>
@@ -184,7 +202,7 @@
             <div class="ommeg">
 
                 <div>
-                    <h3 class=""om>Info om meg</h3>
+                    <h3 class="om">Info om meg</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus commodi ad ducimus numquam,
                         laudantium quo distinctio incidunt nisi qui nihil sed dolores itaque, beatae delectus sapiente
                         tempora porro excepturi consequatur voluptatum ullam voluptates. Similique eaque, nobis error
@@ -197,7 +215,7 @@
 
                 </div>
                 <div>
-                    <h3 class=""om>Dyr</h3>
+                    <h3 class="om">Dyr</h3>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eius illo recusandae commodi quos
                     deserunt iste laboriosam molestias soluta exercitationem tempore inventore impedit animi natus
                     similique aperiam odit temporibus quo accusamus ducimus tenetur aut eaque fugit sapiente! Quasi ipsa
@@ -211,7 +229,7 @@
                 </div>
                 <div>
 
-                    <h3 class=""om>Reise</h3>
+                    <h3 class="om">Reise</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis at iste, hic aliquid ipsam
                         esse atque, architecto fugiat non minus neque, possimus laudantium. Vitae cupiditate suscipit
                         officia iste adipisci blanditiis, alias asperiores recusandae saepe? Quasi quibusdam impedit hic
@@ -252,19 +270,18 @@
         <h3 class="fot"> Kontakter og sosiale medier</h3>
         <div>
             <ul>
-                <li>Instragram - mariasundeodegaard</li>
-                <li>Tiktok - maria.degaard</li>
-                <li>Snapcht - mariasundeo</li>
-                <li>Facebook - mariasundeodegaard</li>
+                <li>Instragram - </li>
+                <li>Tiktok - </li>
+                <li>Snapcht - </li>
+                <li>Facebook - </li>
 
             </ul>
         </div>
 
         <div>
             <ul>
-                <li>Telefon - +47 413 19 139</li>
-                <li> Gmail - mariasodegaard@gmail.com
-                </li>
+                <li>Telefon - </li>
+                <li> Gmail - </li>
             </ul>
         </div>
     </footer>
