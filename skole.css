@@ -1,0 +1,186 @@
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            display: block;
+            width: 40%;
+
+        }
+
+        body {
+            background-color: rgb(255, 237, 246);
+        }
+
+        h1 {
+            text-align: center;
+            border: 5px solid rgb(253, 146, 199);
+            border-radius: 50px;
+            padding: 20px 160px;
+            color: rgb(253, 146, 199);
+            font-size: 70px;
+            margin: auto;
+            width: fit-content;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(253, 146, 199);
+            font-size: 30px;
+            padding-bottom: 30px;
+            
+        }
+
+
+        th {
+            background-color: rgb(240, 124, 182);
+        }
+
+        td {
+            background-color: rgb(246, 220, 224);
+            padding: 10px;
+        }
+
+        table {
+            width: 95%;
+            border-collapse: collapse;
+            border: solid black 3px;
+            margin: auto;
+        }
+
+
+        tr>th {
+            width: 15%;
+        }
+
+        td,
+        th {
+            padding: 12px;
+            border: solid black 3px;
+
+        }
+
+        .navbar {
+            display: flex;
+            font-size: 30px;
+            gap: 10px;
+            justify-content: space-evenly;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+
+        .navbar a:hover {
+            color:  rgb(148, 78, 113);
+            font-size: 32px;
+            transition: 0.3s;
+        }
+
+        a {
+            text-decoration: none;
+            color:  rgb(253, 146, 199);
+        }
+
+        .IT {
+            background-color: rgb(210, 255, 210);
+        }
+
+        .norsk {
+            background-color: lightcoral;
+        }
+
+        .fri {
+            background-color: white;
+        }
+
+        .Biologi {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .Kjemi {
+            background-color: lightblue;
+        }
+
+        .R1 {
+            background-color: rgb(248, 176, 169);
+        }
+
+        .Spansk {
+            background-color: rgb(237, 172, 237);
+        }
+
+        .gym {
+            background-color: lightsalmon;
+        }
+
+        .historie {
+            background-color: rgb(229, 229, 149);
+        }
+
+        .skolen {
+            background-image: url(bilder/nadderud.webp);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: 100% 100%;
+            margin-top: 100px;
+            padding-bottom: 100px;
+
+        }
+
+        .skolen p {
+            padding: 30px;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(3px);
+            border-radius: 20px;
+        }
+
+        .skolen div {
+            padding: 30px;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+            background: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(3px);
+            border-radius: 20px;
+            width: fit-content;
+            text-align: center;
+            max-width: 1000px;
+        }
+
+        .img-container {
+            display: grid;
+            margin: 0 auto;
+        }
+
+        div > .img-container {
+            display: grid;
+            place-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .om {
+
+            color: black;
+            font-style: oblique;
+            padding-top: 50px;
+            background-color: aliceblue;
+            opacity: 0.6;
+            width: fit-content;
+            margin: 50px auto;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .txt {
+            width: 70%;
+            margin: auto;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            font-size: 20px;
+            line-height: 1.6;
+            
+        }

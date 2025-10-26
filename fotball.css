@@ -1,0 +1,156 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        body {
+            background-image: url(bilder/fotball-bak.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: 100% 100%;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding-bottom: 100px;
+        }
+
+        h1 {
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 50px;
+            padding: 20px;
+            color: black;
+            font-size: 100px;
+            margin: 0;
+            background-color: aliceblue;
+            opacity: 0.8;
+        }
+
+        h2 {
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 50px;
+            padding: 20px;
+            color: black;
+            font-size: 40px;
+            margin: 0;
+            background-color: aliceblue;
+            opacity: 0.8;
+        }
+
+        .navbar {
+
+            display: flex;
+            font-size: 20px;
+            gap: 10px;
+            justify-content: flex-start;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+        }
+
+        .generelt {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 20px;
+
+        }
+
+        .info {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px;
+            font-size: 20px;
+        }
+
+        .meg {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #kjentespillere .container {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: stretch;
+            gap: 50px;
+
+        }
+
+        .container div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid black;
+            background-color: rgba(255, 255, 255, 0.8);
+            font-size: 30px;
+            border-radius: 20px;
+            overflow: hidden;
+            padding: 50px;
+        }
+
+        .container div:hover {
+            background-color: rgb(220, 238, 244);
+            transition: 0.3s;
+        }
+
+        #kjentespillere img {
+            width: 20%;
+        }
+
+        #kjentespillere p {
+            padding-top: 100px;
+            font-size: x-large;
+
+        }
+
+        #messi {
+            background-image: url(bilder/messi.webp);
+            background-position: top;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+        }
+
+        #ronaldo {
+            background-image: url(bilder/ronaldo.jpg);
+            background-position: top;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+        }
+
+        #Yamal {
+            background-image: url(bilder/lamine\ yamal\ bruk.webp);
+            background-position: top;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9)
+        }
+
+        #haaland {
+            background-image: url(bilder/haaland.jpg);
+            background-position-y: -100px;
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+        }
